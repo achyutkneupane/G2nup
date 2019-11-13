@@ -1,7 +1,0 @@
-comp = ['COMP','RackComp','M Comp']
-booster = ['AutoWah','Resonance','Booster','Tremelo','RingMod','SlowATTCK','Octave','PedalVox','PedalCry']
-znr = ['ZNR','NoiseGate','DirtyGate']
-drv = ['FD Combo','VX Combo','US Blues','BG Crunch','HW Stack','MS Crunch','MS Drive','PV Drive','DZ Drive','BG Drive','OverDrive','T Scream','Governor','Dist +','Dist 1','Squeak','FuzzSmile','GreatMuff','MetalWRLD','HotBox','Z Clean','Z Wild','Z MP1','Z Bottom','Z Dream','Z Scream','Z Neos','Lead','ExtremeDS','Aco. Sim']
-mod = ['Chorus','VintageCE','StereoCho','Ensemble','Phaser','Flanger','DynaFLNGR','Vibrato','Step','Cry','Detune','PitchSHFT','MotoPitch','HPS','PDL Pitch','ComboFLTR','Air','Delay','TapeEcho','ModDelay','DynaDelay']
-dly = ['Delay','Echo','AnalogDLY','PingPongD','ReverseDL']
-rev = ['Hall','Room','Spring','Arena','TiledRoom','EarlyRef','MultiTapD']
