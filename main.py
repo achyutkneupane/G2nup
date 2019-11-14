@@ -9,10 +9,10 @@ import urllib.request
 import webbrowser
 
 window = Tk()
-window.title("G2NUP Reader")
-#window.configure(background='black')
-window.resizable(0, 0)
 window.geometry('500x90')
+#window.iconbitmap('icon.ico')
+window.title("G2NUP Reader")
+window.resizable(0, 0)
 req = urllib.request.Request("http://cc.amazingcounters.com/counter.php?i=3243893&c=9731992", headers = {"User-Agent": "Mozilla/5.0"})
 urllib.request.urlopen(req)
 
