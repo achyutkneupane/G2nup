@@ -13,8 +13,6 @@ window.geometry('500x90')
 #window.iconbitmap('icon.ico')
 window.title("G2NUP Reader")
 window.resizable(0, 0)
-req = urllib.request.Request("http://cc.amazingcounters.com/counter.php?i=3243893&c=9731992", headers = {"User-Agent": "Mozilla/5.0"})
-urllib.request.urlopen(req)
 
 def callback():
     name= askopenfilename(initialdir = "Downloads",title = "Select G2NuP file",filetypes =[('G2Nu Patch', '*.g2nup')]) 
@@ -109,4 +107,6 @@ def getdata(file):
     else:
         tree.insert("", 9,text="Reverb: %s" % ef.rev[num][0], values=("%s: %s" %(ef.rev[num][1],int(patch[n+8][2].text)+1),"%s: %s" %(ef.rev[num][2],int(patch[n+8][3].text)),"%s: %s" %(ef.rev[num][3],(int(patch[n+8][4].text)*2))))
     tree.pack()
+req = urllib.request.Request("http://cc.amazingcounters.com/counter.php?i=3243893&c=9731992", headers = {"User-Agent": "Mozilla/5.0"})
+urllib.request.urlopen(req)
 mainloop()
